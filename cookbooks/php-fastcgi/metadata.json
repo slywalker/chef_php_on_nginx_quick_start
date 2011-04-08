@@ -1,0 +1,106 @@
+{
+  "version": "0.0.5",
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "conflicting": {
+  },
+  "attributes": {
+    "php_fastcgi/max_requests": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "default": "1000",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "description": "PHP_FCGI_MAX_REQUESTS",
+      "display_name": "PHP_FCGI_MAX_REQUESTS"
+    },
+    "php_fastcgi/children": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "default": "4",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "description": "PHP_FCGI_CHILDREN",
+      "display_name": "PHP_FCGI_CHILDREN"
+    },
+    "php_fastcgi/port": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "default": "9000",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "description": "FCGI_PORT",
+      "display_name": "FCGI_PORT"
+    },
+    "php_fastcgi/host": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "default": "127.0.0.1",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "description": "FCGI_HOST",
+      "display_name": "FCGI_HOST"
+    }
+  },
+  "license": "All rights reserved",
+  "providing": {
+  },
+  "dependencies": {
+    "nginx": [
+
+    ],
+    "build-essential": [
+
+    ]
+  },
+  "platforms": {
+    "debian": [
+
+    ],
+    "fedora": [
+
+    ],
+    "centos": [
+
+    ],
+    "ubuntu": [
+
+    ],
+    "redhat": [
+
+    ]
+  },
+  "maintainer": "YOUR_COMPANY_NAME",
+  "replacing": {
+  },
+  "description": "Installs/Configures fastcgi",
+  "recipes": {
+  },
+  "maintainer_email": "YOUR_EMAIL",
+  "groupings": {
+  },
+  "recommendations": {
+  },
+  "name": "php-fastcgi",
+  "suggestions": {
+  }
+}
