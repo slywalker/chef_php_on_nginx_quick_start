@@ -1,23 +1,14 @@
 {
-  "license": "Apache 2.0",
-  "recipes": {
-    "sqlite": ""
-  },
+  "version": "0.7.0",
+  "long_description": "",
   "conflicting": {
-
+  },
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "providing": {
   },
   "dependencies": {
-
-  },
-  "providing": {
-    "sqlite": [
-
-    ]
-  },
-  "long_description": "",
-  "description": "Installs sqlite",
-  "replacing": {
-
   },
   "platforms": {
     "debian": [
@@ -27,17 +18,18 @@
 
     ]
   },
-  "version": "0.7.0",
   "maintainer": "Opscode, Inc.",
+  "replacing": {
+  },
+  "description": "Installs sqlite",
+  "recipes": {
+  },
+  "maintainer_email": "cookbooks@opscode.com",
+  "groupings": {
+  },
   "recommendations": {
-
   },
   "name": "sqlite",
-  "maintainer_email": "cookbooks@opscode.com",
-  "attributes": {
-
-  },
   "suggestions": {
-
   }
 }
