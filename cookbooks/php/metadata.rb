@@ -25,3 +25,5 @@ recipe "php::module_memcache", "Install the php5-memcache package"
 recipe "php::module_mysql", "Install the php5-mysql package"
 recipe "php::module_pgsql", "Install the php5-pgsql packag"
 recipe "php::module_sqlite3", "Install the php5-sqlite3 package"
+
+recipe "php::module_mbstring", "Install the php5-mbstringGG package"
